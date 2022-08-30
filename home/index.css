@@ -1,0 +1,495 @@
+.corpo{
+    overflow-x: hidden;
+}
+
+.pagina-principal{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.faixa-1 * {
+    z-index: 10;
+}
+.boneco-tenis{
+    position: absolute;
+    bottom: 0px;
+    left: -240px;
+}
+
+.boneco-suco{
+    position: absolute;
+    bottom: 0px;
+    right: -200px;
+}
+
+.faixa-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    
+    padding:1.5em ;
+    height: 83.5vh;
+    
+    background-color: #404eed;
+    background-image: url(../assets/images/e6d57714479874c665b36c7adee76b1d.svg);
+    background-repeat: no-repeat;
+    background-position: -500px 35px ;
+
+    position: relative;
+}
+
+.f1-cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1178px;
+    
+    margin-bottom:8em ;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-family: jimbei-woff3;
+    cursor: pointer;
+    
+}
+
+.menu div{
+    margin: 0em 1.5em;
+}
+
+.btn-abrir{
+    display: flex;
+    align-items: center;
+    
+    font-family: zoro-woff1;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 5px 1.2em;
+    cursor: pointer;
+    
+    color: #23272a;
+    background-color: #fff;
+}
+
+.f1-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 800px;
+    
+}
+
+.f1-textos h1{
+    font-family: sanji-woff2;
+    font-size:3.5em ;
+    line-height: 1em;
+    text-align: center;
+    
+    margin: 0em 3em ;
+}
+
+.f1-textos p{
+    font-family: robin-woff4;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    text-align: center;
+
+    margin-top: 1.9em;
+    
+}
+
+.f1-texto-botao{
+    display: flex;
+    flex-direction: row;
+   
+    margin: 1.5em;
+
+}
+
+.f1-texto-botao a {
+    font-family: zoro-woff1;
+    font-size: 1.3em;
+    
+    display: flex;
+    align-items: center;
+    
+    padding:0.7em 1.6em;
+    margin: 0.8em 1.2em;
+    
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+.f1-btn-w{
+   background-color:#fff ;
+    color:#000 ;
+   
+}
+
+.btn-navegador{
+    background-color:#23272a ;
+    color:#fff ;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.faixa-2{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    padding: 6em 4em;
+    background-color: #fff;
+}
+
+
+.faixa-2 >*{
+    margin: 2em 2em;
+}
+
+.f2-grupo-estudo{
+    width: 50%;
+}
+
+.f2-textos{
+    display: flex;
+    flex-direction: column;
+
+    width: 24em;
+}
+
+.f2-titulo{
+    font-family: luffy-woff;
+    font-size: 3em;
+    color: #000;
+    line-height: 1.2em;
+    
+    margin-bottom:  0.5em;
+}
+
+.f2-descricao{
+    font-family: robin-woff4;
+    font-size: 1.20em;
+    color: #2c2f33;
+    line-height: 1.6em;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    padding: 6em 4em;
+    background-color: #f6f6f6;
+}
+
+.bloco >*{
+    margin: 2em 2em 
+}
+
+.fundo{
+    width: 50%;
+}
+
+.textos-2{
+    display: flex;
+    flex-direction: column;
+
+    width: 24em;
+    padding-top: 1em;
+}
+
+.segundo-titulo{
+    font-family: luffy-woff;
+    font-size: 48px;
+    color: #000;
+    line-height: 1.3em;
+    
+    margin-bottom:  0.7em;
+}
+
+.segunda-descricao{
+    font-family: robin-woff4;
+    font-size: 20px;
+    color: #2c2f33;
+    line-height: 1.5em;
+    
+}
+
+.sessao-completa{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco-2{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    padding: 6em 4em;
+    background-color: #fff;
+}
+.bloco-2 >*{
+    margin: 2em 2em;
+}
+
+.atras{
+    width: 50%;
+}
+
+.textos-f3{
+    display: flex;
+    flex-direction: column;
+
+    width: 24em;
+}
+
+.titulo-f3{
+    margin-top: 24px;
+    font-family: luffy-woff;
+    font-size: 48px;
+    color: #000;
+    line-height: 1.2em;
+    
+    margin-bottom:  0.5em;    
+}
+
+.terc-descricao{
+    font-family: robin-woff4;
+    font-size: 1.3em;
+    color: #2c2f33;
+    line-height: 1.625em;
+}
+
+.estrutura{
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    height: 88em;
+
+}
+
+.fundo-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 800px;
+    margin: 6.7em 25em;
+    
+
+}
+
+.fundo-txt h1{
+    font-family: sanji-woff2 ;
+    font-size: 2.5em;
+    color: #23272a;
+    text-align: center;
+    line-height: 1em;
+}
+
+.fundo-txt p{
+    font-family: robin-woff4;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.7em;
+
+    margin: 1.5em -4em;
+
+}
+
+.img-peixe{
+   width: 75em;
+   margin: -1em -14em;
+}
+
+.parte-final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}    
+
+.subtitulo-btn{
+    font-family:luffy-woff ;
+    font-size: 1.3em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+
+.button{
+    font-family: zoro-woff1;
+    font-size: 1.3em;
+    
+    display: flex;
+    align-items: center;
+    
+    padding:0.7em 1.6em;
+    margin: 0.8em 1.2em;
+    
+    border-radius: 5em;
+    cursor: pointer;
+
+    background-color: #5865f2;
+    color: #fff;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    background-color: #23272a;
+    padding: 5em 13em ;
+
+}
+
+.bloco-1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+
+    width: 400px;
+
+}
+
+.titulo-final{
+    font-family: sanji-woff2;
+    font-size: 1.4em;
+    color:#5865f2;
+    line-height: 1.5em;
+    
+    
+}
+
+.img-brasil{
+    font-family: robin-woff4;
+    font-size: 0.9em;
+    color: #fff;
+    line-height: 1.1em;
+    margin-top: 1.3em;
+    
+}
+
+.img-brasil a{
+    margin: 5px;
+}
+    
+
+.mini-images{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin-top: 1.3em ;
+}
+
+.tt{
+    margin-right: 1.4em;
+}
+
+.insta{
+    margin-right: 1.4em;
+}
+
+.face{
+    margin-right:1.4em ;
+}
+
+.youtube{
+    margin-right: 1.4em;
+}
+
+.four-menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: zoro-woff1;
+    font-size: 1em;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 0.5em;
+    
+   
+}
+
+
+
+.four-menus h5{
+    font-family: robin-woff4;
+    font-size: 1em;
+    line-height: 24px;
+    color: #5865f2;
+    
+}
+
+.menu1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 9em;
+    
+} 
+
+.menu2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 9em;
+}
+
+.menu3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 9em;
+}
+
+.menu4{
+    display: flex;
+    flex-direction: column;   
+}
+
+.parte-final1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #23272a;
+    color: #fff;
+    height: 10em;
+}
+
+
+.rodape-final{
+    margin-right: 35em;
+}
+
+.botaozin{
+    display: flex;
+    align-items: center;
+    
+    font-family: zoro-woff1;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 10px 1.2em;
+    cursor: pointer;
+    
+    color: #fff;
+    background-color: #5865f2;
+}
+
+
+
+
